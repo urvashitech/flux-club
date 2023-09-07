@@ -1,0 +1,43 @@
+header{
+        font-family: 'Roboto Condensed', sans-serif;
+        
+        
+}
+*{
+        margin: 0.3rem;
+        margin-top: 9px;
+        padding: 0;        
+}
+nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+nav ul{
+        display: flex;
+        margin-right: 1px;
+}
+nav ul li{
+        list-style: none;
+        margin-right: 30px;       
+}
+nav ul :hover {
+        color: gray;
+        cursor: pointer;
+      }
+nav ul li a{
+        text-decoration: none; 
+        color: blue;
+        font-size: 18px;
+
+}      
+.right {
+        margin-left: auto;
+        margin-top: 10px;
+        
+      }
+.left{
+        margin-left: 50px;
+        font-size: 40px;
+        color: blue;
+}
